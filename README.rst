@@ -32,6 +32,5 @@ como usar
 
 .. code::
 
-  # ctelib permite de ler os dados de uma nota fiscal, por examplo no formato 3.10:
   >>> from ctelib.v3_00 import cte as cte3
   # TODO documentar melhor
