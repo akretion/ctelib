@@ -4,12 +4,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='nfelib',
+    name='ctelib',
     version='0.1',
     author='Raphael Valyi',
     author_email='raphael.valyi@akretion.com',
-    url='https://github.com/akretion/nfelib',
-    description='nfelib: electronic invoicing library for Brazil',
+    url='https://github.com/akretion/ctelib',
+    description='ctelib: Conhecimento de Transporte Eletrônico library for Brazil',
     long_description=open('README.rst').read(),
     license='MIT',
     classifiers=[
@@ -19,7 +19,7 @@ setup(
         'License :: OSI Approved :: BSD License',
         "Operating System :: OS Independent",
     ],
-    keywords='e-invoice NFe ERP Odoo',
+    keywords='CT-e ERP Odoo',
     packages=find_packages(),
     include_package_data=True,
     scripts=[],
